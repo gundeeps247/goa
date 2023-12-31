@@ -6,7 +6,7 @@ This C++ header file provides a function to find the greatest number in a given 
 
 ## Usage
 
-1\. Download the [greatest.h](link-to-your-downloadable-file) header file.
+1\. Download the [greatest.h](https://github.com/gundeeps247/goa/blob/main/greatest.h) header file.
 
 2\. Place the header file in your project directory.
 
