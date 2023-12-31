@@ -10,7 +10,7 @@ Welcome to the Greatest library! This C++ library provides a simple and efficien
 
 To get started, download the following files:
 
-- `greatest.hpp`: [link_to_greatest_hpp]([link_to_greatest_hpp])
+- `greatest.hpp`: [greatest_hpp]([https://github.com/gundeeps247/goa/blob/main/greatest.hpp])
 
 - `libgreatest.a`: [libgreatest_a](https://github.com/gundeeps247/goa/blob/main/libgreatest.a) (for Linux and macOS)
 
