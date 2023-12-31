@@ -6,33 +6,45 @@ This C++ header file provides a function to find the greatest number in a given 
 
 ## Usage
 
-1\. Download the [greatest.h](https://github.com/gundeeps247/goa/blob/main/greatest.h) header file.
+1. Download the [greatest.h](https://github.com/gundeeps247/goa/blob/main/greatest.h) header file.
 
-2\. Place the header file in your project directory.
+2. Place the header file in your project directory.
 
 ```cpp
 
-#include <iostream>
+// main.cpp
 
-#include <vector>
+#include  <iostream>
 
-#include "greatest.h"
+#include  "greatest.h"
 
 int main() {
 
-    // Example usage:
+    // Get three numbers from the user
 
-    std::vector<int> numbers = {4, 8, 2, 10, 5};
+    std::cout << "Enter three numbers: ";
 
-    int result = findGreatest(numbers);
+    int num1, num2, num3;
 
-    std::cout << "The greatest number is: " << result << std::endl;
+    std::cin >> num1 >> num2 >> num3;
+
+    // Find the greatest number using the function from the header
+
+    int greatest = findGreatest(num1, num2, num3);
+
+    // Display the result
+
+    std::cout << "The greatest number is: " << greatest << std::endl;
 
     return 0;
 
 }
 
 ```
+
+3. run or put in the command
+```g++ main.cpp -o myprogram```
+
 
 ### Notes
 
